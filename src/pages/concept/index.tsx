@@ -1,7 +1,7 @@
 import { NextPage } from "next";
-import ConceptCard from "../../component/ConceptCard";
 import { concept } from "../../data";
-
+import { ConceptCard } from "@/component/ConceptCard";
+// import ConceptCard from "@/component/ConceptCard";
 const ConceptIndex: NextPage = () => {
   return (
     <>

@@ -1,4 +1,5 @@
 import { BlogType, ConceptType } from "./types";
+import chameleon from "../public/MainAfter.jpg";
 
 export const blogs: BlogType[] = [
   {
@@ -19,5 +20,23 @@ export const concept: ConceptType[] = [
   {
     id: 2,
     title: "Due",
+  },
+];
+
+export const features = [
+  {
+    title: "One",
+    picture: chameleon.src,
+    description: "The first",
+  },
+  {
+    title: "Two",
+    picture: chameleon.src,
+    description: "The second",
+  },
+  {
+    title: "Three",
+    picture: chameleon.src,
+    description: "The third",
   },
 ];
