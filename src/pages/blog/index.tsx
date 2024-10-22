@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import BlogCard from "../component/BlogCard";
+import BlogCard from "../../component/BlogCard";
 import { blogs } from "../../data";
 
 const BlogIndex: NextPage = () => {
